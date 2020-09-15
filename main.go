@@ -6,12 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(syntax.Multiply(10, 10))
-
-	l, n := syntax.LenAndUpper("imgomi")
-	fmt.Println(l, n)
-
-	fmt.Println(syntax.LenAndUpperV2("imgomi"))
-
-	syntax.RepeatMe("Hello", "goland", "imgomi")
+	fmt.Println(syntax.SuperAdd(1, 2, 3, 4, 5))
+	fmt.Println(syntax.SuperAddRange(1, 2, 3, 4, 5))
 }
