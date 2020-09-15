@@ -24,6 +24,10 @@ func LenAndUpperV2(name string) (length int, uppercase string) {
 	return
 }
 
+func Swap(a, b int) (int, int) {
+	return b, a
+}
+
 // Multiple argument values
 func RepeatMe(words ...string) {
 	fmt.Println(words)
