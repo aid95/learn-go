@@ -1,8 +1,17 @@
 package main
 
-import "github.com/aid95/learn-go/syntax"
+import (
+	"fmt"
+	"github.com/aid95/learn-go/syntax"
+)
 
 func main() {
-	syntax.ConstantSyntax()
-	syntax.VariableSyntax()
+	fmt.Println(syntax.Multiply(10, 10))
+
+	l, n := syntax.LenAndUpper("imgomi")
+	fmt.Println(l, n)
+
+	fmt.Println(syntax.LenAndUpperV2("imgomi"))
+
+	syntax.RepeatMe("Hello", "goland", "imgomi")
 }
