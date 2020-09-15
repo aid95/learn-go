@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(syntax.EnterClub(18))
-	fmt.Println(syntax.IsPrintable('\n'))
+	a := 0
+	syntax.BasicPointerConcept(&a)
+	fmt.Println(a)
 }
