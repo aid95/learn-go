@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "github.com/aid95/learn-go/syntax"
 
 func main() {
-	fmt.Println("Hello, golang💙!")
+	syntax.ConstantSyntax()
+	syntax.VariableSyntax()
 }
